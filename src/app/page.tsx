@@ -5,6 +5,7 @@ import Wrapper from "@/layouts/Wrapper";
 export const metadata = {
   title: "Bico - ICO & Crypto With Real Project",
 };
+
 const index = () => {
   return (
     <Wrapper>
