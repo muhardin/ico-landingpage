@@ -2,7 +2,7 @@ import Login from "@/component/login";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-  title: "Login Bico - ICO & Crypto Landing React Next js Template",
+  title: "Login Bico - ICO & Crypto Landing With Real Project",
 };
 const index = () => {
   return (

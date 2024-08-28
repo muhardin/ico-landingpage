@@ -7,7 +7,7 @@ import FooterThree from "@/layouts/footers/FooterThree";
 import HeaderThree from "@/layouts/headers/HeaderThree";
 
 export const metadata = {
-  title: "Blog Details Bico - ICO & Crypto Landing React Next js Template",
+  title: "Blog Details Bico - ICO & Crypto Landing With Real Project",
 };
 const index = ({ params }: { params: { id: number } }) => {
   const single_blog = blog_data.find(
