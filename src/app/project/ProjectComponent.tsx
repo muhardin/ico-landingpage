@@ -3,6 +3,8 @@ import Image from "next/image";
 import shape_1 from "@/assets/img/shape/ti_shape.png";
 import shape_2 from "@/assets/img/shape/ti_shape2.png";
 import img_1 from "@/assets/img/token/t_info_img.png";
+import img_2 from "@/assets/img/icon/metric.png";
+import img_3 from "@/assets/img/icon/moon.webp";
 
 const ProjectComponent = () => {
   return (
@@ -23,41 +25,96 @@ const ProjectComponent = () => {
             <div className="token-info--info-wrap ul_li">
               <ul className="token-info__list token-info--start">
                 <li>
-                  <Image width={150} height={150} src={img_1} alt="" />
+                  <Image width={150} height={150} src={img_2} alt="" />
                   <h4 className="mt-2">Metric Coin (MTRC)</h4>
                   <div className="flex flex-col gap-2">
                     <span>PT. Metricpack Mandiri</span>
                     <br />
                     <span>June 8, 2023 (9:00AM GMT)</span>
+                    <br />
+                    <span>Supply: 1.000.000 MTRC</span>
+                    <br />
+                    <span>Available: 1.000.000 MTRC</span>
+                    <br />
+                    <span>Status: Active</span>
                   </div>
                 </li>
                 <li>
-                  <Image width={150} height={150} src={img_1} alt="" />
-
-                  <h4 className="mt-2">Number of Tokens for Sale</h4>
-                  <span>1.000.000 Tokens</span>
+                  <Image width={150} height={150} src={img_3} alt="" />
+                  <h4 className="mt-2">Moon Coin (MNRC)</h4>
+                  <div className="flex flex-col gap-2">
+                    <span>Coming Soon</span>
+                    <br />
+                    <span>Coming Soon</span>
+                    <br />
+                    <span>Supply: 1.000.000 MTRC</span>
+                    <br />
+                    <span>Available: 1.000.000 MTRC</span>
+                    <br />
+                    <span>Status: Coming Soon</span>
+                  </div>
                 </li>
                 <li>
-                  <Image width={150} height={150} src={img_1} alt="" />
-                  <h4 className="mt-2">Minimal Transaction</h4>
-                  <span>10 Tokens / Transaction</span>
+                  <Image width={150} height={150} src={img_2} alt="" />
+                  <h4 className="mt-2">Metric Coin (MTRC)</h4>
+                  <div className="flex flex-col gap-2">
+                    <span>Coming Soon</span>
+                    <br />
+                    <span>Coming Soon</span>
+                    <br />
+                    <span>Supply: 1.000.000 MTRC</span>
+                    <br />
+                    <span>Available: 1.000.000 MTRC</span>
+                    <br />
+                    <span>Status: Coming Soon</span>
+                  </div>
                 </li>
               </ul>
               <ul className="token-info__list token-info--end">
                 <li>
-                  <Image width={150} height={150} src={img_1} alt="" />
-                  <h4 className="mt-2">End</h4>
-                  <span>June 8, 2024 (9:00AM GMT)</span>
+                  <Image width={150} height={150} src={img_2} alt="" />
+                  <h4 className="mt-2">Metric Coin (MTRC)</h4>
+                  <div className="flex flex-col gap-2">
+                    <span>Coming Soon</span>
+                    <br />
+                    <span>Coming Soon</span>
+                    <br />
+                    <span>Supply: 1.000.000 MTRC</span>
+                    <br />
+                    <span>Available: 1.000.000 MTRC</span>
+                    <br />
+                    <span>Status: Coming Soon</span>
+                  </div>
                 </li>
                 <li>
-                  <Image width={150} height={150} src={img_1} alt="" />
-                  <h4 className="mt-2">Tokens exchange rate</h4>
-                  <span>1 ETH = 650 ICC, 1 BTC = 1940 ICC</span>
+                  <Image width={150} height={150} src={img_2} alt="" />
+                  <h4 className="mt-2">Metric Coin (MTRC)</h4>
+                  <div className="flex flex-col gap-2">
+                    <span>PT. Metricpack Mandiri</span>
+                    <br />
+                    <span>June 8, 2023 (9:00AM GMT)</span>
+                    <br />
+                    <span>Supply: 1.000.000 MTRC</span>
+                    <br />
+                    <span>Available: 1.000.000 MTRC</span>
+                    <br />
+                    <span>Status: Active</span>
+                  </div>
                 </li>
                 <li>
-                  <Image width={150} height={150} src={img_1} alt="" />
-                  <h4 className="mt-2">Acceptable currencies</h4>
-                  <span>ETH, BTC, LTC</span>
+                  <Image width={150} height={150} src={img_2} alt="" />
+                  <h4 className="mt-2">Metric Coin (MTRC)</h4>
+                  <div className="flex flex-col gap-2">
+                    <span>PT. Metricpack Mandiri</span>
+                    <br />
+                    <span>June 8, 2023 (9:00AM GMT)</span>
+                    <br />
+                    <span>Supply: 1.000.000 MTRC</span>
+                    <br />
+                    <span>Available: 1.000.000 MTRC</span>
+                    <br />
+                    <span>Status: Active</span>
+                  </div>
                 </li>
               </ul>
             </div>
