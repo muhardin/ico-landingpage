@@ -23,7 +23,7 @@ const FooterThree = () => {
                 project&apos;s tokens before the main ICO.
               </p>
               <form onSubmit={(e) => e.preventDefault()}>
-                <input type="text" placeholder="coindox@gmail.com" />
+                <input type="text" placeholder="support@bico.id" />
                 <button aria-label="Submit">
                   <i className="fas fa-paper-plane"></i>
                 </button>
@@ -109,7 +109,7 @@ const FooterThree = () => {
         <div className="container">
           <div className="footer__copyright-inner ul_li_between">
             <div className="footer__copyright-text mt-15">
-              Copyright © 2024 coindox. All rights reserved.
+              Copyright © 2024 bico. All rights reserved.
             </div>
             <ul className="footer__links ul_li_right mt-15">
               <li>

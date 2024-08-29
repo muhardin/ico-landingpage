@@ -4,13 +4,14 @@ import ContactForm from "@/component/homes/home-three/ContactForm";
 import FooterThree from "@/layouts/footers/FooterThree";
 import HeaderThree from "@/layouts/headers/HeaderThree";
 import Wrapper from "@/layouts/Wrapper";
+import ProjectComponent from "./ProjectComponent";
 
 const page = () => {
   return (
     <Wrapper>
       <HeaderThree />
       <Breadcrumb title="Projects & Partner" page_title="Projects & Partner" />
-      <div className="">Test</div>
+      <ProjectComponent />
       <ContactForm />
       <FooterThree />
     </Wrapper>
