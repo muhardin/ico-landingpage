@@ -11,6 +11,7 @@ import flag_1 from "@/assets/img/icon/chn_flag.png";
 import flag_2 from "@/assets/img/icon/rsa_flag.png";
 import flag_3 from "@/assets/img/icon/in_flag.png";
 import flag_4 from "@/assets/img/icon/us_flag.png";
+import flag_5 from "@/assets/img/icon/id_flag.png";
 
 const HeaderThree = () => {
   const { sticky } = UseSticky();
@@ -76,23 +77,15 @@ const HeaderThree = () => {
                       aria-labelledby="dropdownMenuButton1"
                     >
                       <Link className="dropdown-item" href="/">
-                        <Image src={flag_1} alt="" />
-                        China
-                      </Link>
-                      <Link className="dropdown-item" href="/">
-                        <Image src={flag_2} alt="" />
-                        Russia
-                      </Link>
-                      <Link className="dropdown-item" href="/">
-                        <Image src={flag_3} alt="" />
-                        India
+                        <Image src={flag_5} alt="" />
+                        Indonesia
                       </Link>
                     </div>
                   </div>
                 </div>
                 <div className="header__account">
                   <Link href="/login">
-                    <i className="fas fa-user"></i>LOGIN
+                    <span className="fas fa-user"></span> LOGIN
                   </Link>
                 </div>
               </div>

@@ -177,14 +177,28 @@ const menu_data: MenuItem[] = [
   {
     id: 5,
     page: "home_3",
-    has_dropdown: true,
-    title: "Blog",
-    link: "#",
-    sub_menus: [
-      { link: "/blog", title: "Blog" },
-      { link: "/blog-details", title: "Blog Details" },
-    ],
+    has_dropdown: false,
+    title: "Projects",
+    link: "/project",
   },
+  {
+    id: 5,
+    page: "home_3",
+    has_dropdown: false,
+    title: "Blog",
+    link: "/blog",
+  },
+  //   {
+  //     id: 6,
+  //     page: "home_3",
+  //     has_dropdown: true,
+  //     title: "Blog",
+  //     link: "#",
+  //     sub_menus: [
+  //       { link: "/blog", title: "Blog" },
+  //       { link: "/blog-details", title: "Blog Details" },
+  //     ],
+  //   },
   {
     id: 6,
     page: "home_3",
