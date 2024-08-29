@@ -38,7 +38,7 @@ const About = () => {
               </div>
               <ul className="about__list ul_li">
                 <li>
-                  <Image src={icon_1} alt="" />
+                  <Image src={icon_1} alt="_" />
                   Decentralized Platform
                 </li>
                 <li>
