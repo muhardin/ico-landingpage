@@ -13,7 +13,7 @@ const ProjectComponent = () => {
             <div className="token-info__title sec-title mb-95 text-center text-xl-start">
               <h5 className="sec-title__subtitle">Projects</h5>
               <h2 className="sec-title__title">
-                ICO Tokens <br /> Project
+                ICO Tokens <br /> Project____
               </h2>
             </div>
           </div>
