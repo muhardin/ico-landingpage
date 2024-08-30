@@ -6,8 +6,8 @@ import thumb_3 from "@/assets/img/team/team_03.png";
 import thumb_4 from "@/assets/img/team/team_04.png";
 
 import home_3thumb_1 from "@/assets/img/team/img_01.png";
-import home_3thumb_2 from "@/assets/img/team/img_02.png";
-import home_3thumb_3 from "@/assets/img/team/img_03.png";
+import home_3thumb_2 from "@/assets/img/team/cto.png";
+import home_3thumb_3 from "@/assets/img/team/cfo.jpg";
 import home_3thumb_4 from "@/assets/img/team/img_04.png";
 import home_3thumb_5 from "@/assets/img/team/ceo.jpg";
 
