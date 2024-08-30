@@ -1,6 +1,6 @@
-"use client"
-import React from 'react';
-import { useTimer } from 'react-timer-hook';
+"use client";
+import React from "react";
+import { useTimer } from "react-timer-hook";
 
 const CountdownClock = () => {
   // Set the expiration timestamp based on the current time plus the desired duration
@@ -10,33 +10,47 @@ const CountdownClock = () => {
   time.setMinutes(time.getMinutes() + 9); // 59 minutes
   time.setSeconds(time.getSeconds() + 59); // 59 seconds
 
-  const {
-    seconds,
-    minutes,
-    hours,
-    days,
-  } = useTimer({ expiryTimestamp: time, onExpire: () => console.warn('onExpire called') });
+  const { seconds, minutes, hours, days } = useTimer({
+    expiryTimestamp: time,
+    onExpire: () => console.warn("onExpire called"),
+  });
 
   return (
-    <div className='countdown ul_li_center'>
-      <div className="single">
-        <h1>{days}</h1>
-        <p>days</p>
+    <div className="d-flex justify-content-center align-items-center">
+      <div className="single text-center mx-2">
+        <h1 className="mb-1" style={{ fontSize: "2rem", width: "60px" }}>
+          {days}
+        </h1>
+        <p className="m-0" style={{ fontSize: "0.75rem" }}>
+          days
+        </p>
       </div>
-      <div className="single">
-        <h1>{hours}</h1>
-        <p>hours</p>
+      <div className="single text-center mx-2">
+        <h1 className="mb-1" style={{ fontSize: "2rem", width: "60px" }}>
+          {hours}
+        </h1>
+        <p className="m-0" style={{ fontSize: "0.75rem" }}>
+          hours
+        </p>
       </div>
-      <div className="single">
-        <h1>{minutes}</h1>
-        <p>mins</p>
+      <div className="single text-center mx-2">
+        <h1 className="mb-1" style={{ fontSize: "2rem", width: "60px" }}>
+          {minutes}
+        </h1>
+        <p className="m-0" style={{ fontSize: "0.75rem" }}>
+          mins
+        </p>
       </div>
-      <div className="single">
-        <h1>{seconds}</h1>
-        <p>secs</p>
+      <div className="single text-center mx-2">
+        <h1 className="mb-1" style={{ fontSize: "2rem", width: "60px" }}>
+          {seconds}
+        </h1>
+        <p className="m-0" style={{ fontSize: "0.75rem" }}>
+          secs
+        </p>
       </div>
     </div>
   );
-}
+};
 
 export default CountdownClock;

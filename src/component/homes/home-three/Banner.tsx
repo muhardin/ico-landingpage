@@ -83,7 +83,7 @@ const Banner = () => {
         </div>
       </div>
 
-      <div className="hero__coin">
+      <div className="hero__coin s">
         <div className="coin coin--1">
           <Image src={icon_1} alt="" />
         </div>

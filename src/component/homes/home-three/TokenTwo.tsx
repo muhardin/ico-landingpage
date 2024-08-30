@@ -29,11 +29,11 @@ const TokenTwo = () => {
               <ul className="token-info__list token-info--start">
                 <li>
                   <h4>Start</h4>
-                  <span>June 8, 2023 (9:00AM GMT)</span>
+                  <span>September 9, 2024 (9:00AM GMT+7)</span>
                 </li>
                 <li>
                   <h4>Number of Tokens for Sale</h4>
-                  <span>1.000.000 Tokens</span>
+                  <span>2.000.000 Tokens</span>
                 </li>
                 <li>
                   <h4>Minimal Transaction</h4>
@@ -43,15 +43,15 @@ const TokenTwo = () => {
               <ul className="token-info__list token-info--end">
                 <li>
                   <h4>End</h4>
-                  <span>June 8, 2024 (9:00AM GMT)</span>
+                  <span>November 9, 2024 (9:00AM GMT+7)</span>
                 </li>
                 <li>
                   <h4>Tokens exchange rate</h4>
-                  <span>1 ETH = 650 ICC, 1 BTC = 1940 ICC</span>
+                  <span>1 USDT = 0.006 BICO</span>
                 </li>
                 <li>
                   <h4>Acceptable currencies</h4>
-                  <span>ETH, BTC, LTC</span>
+                  <span>ETH, BTC, LTC, USDT</span>
                 </li>
               </ul>
             </div>

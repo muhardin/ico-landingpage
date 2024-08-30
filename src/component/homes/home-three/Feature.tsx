@@ -21,7 +21,8 @@ const feature_data: DataType[] = [
     icon: icon_1,
     title: (
       <>
-        Mobile payment <br /> make easy
+        Real Businesses <br />
+        Real Profits
       </>
     ),
   },
@@ -30,7 +31,7 @@ const feature_data: DataType[] = [
     icon: icon_2,
     title: (
       <>
-        Investment <br /> Projects
+        High Growth <br /> Potential
       </>
     ),
   },
@@ -39,7 +40,7 @@ const feature_data: DataType[] = [
     icon: icon_3,
     title: (
       <>
-        Lifetime free <br /> transaction
+        Strong Community <br /> and Support
       </>
     ),
   },
@@ -48,7 +49,7 @@ const feature_data: DataType[] = [
     icon: icon_4,
     title: (
       <>
-        Protect the <br /> identity
+        First-Mover <br /> Advantage
       </>
     ),
   },
@@ -57,7 +58,7 @@ const feature_data: DataType[] = [
     icon: icon_5,
     title: (
       <>
-        Security your <br /> money
+        Secure <br /> Transactions <br /> & Transparent
       </>
     ),
   },

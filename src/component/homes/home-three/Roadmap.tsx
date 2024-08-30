@@ -37,7 +37,7 @@ const roadmap_data: DataType[] = [
     list: [
       <>Contract Testing</>,
       <>Project Prototype</>,
-      <>Metaverse Demo</>,
+      <>System Demo</>,
       <>(Alpha)</>,
     ],
     year: 2023,
@@ -52,7 +52,7 @@ const roadmap_data: DataType[] = [
         Marketing to reach <br /> wider Audiences
       </>,
       <>
-        Metaverse <br /> Development
+        System <br /> Development
       </>,
     ],
     year: 2024,
@@ -61,12 +61,7 @@ const roadmap_data: DataType[] = [
     id: 4,
     icon: icon_4,
     title: "Token Launch",
-    list: [
-      <>NFT MarketPlace</>,
-      <>NFT Launch</>,
-      <>Exchanges Listing</>,
-      <>Dex Listing</>,
-    ],
+    list: [<>Platform Launch</>, <>Exchanges Listing</>, <>Dex Listing</>],
     year: 2025,
   },
   {
@@ -77,7 +72,7 @@ const roadmap_data: DataType[] = [
       <>
         In-house testing <br /> of functional
       </>,
-      <>App development</>,
+      <>App development upgrade</>,
       <>
         Further <br /> Development
       </>,
